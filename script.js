@@ -1,9 +1,9 @@
 $(document).ready(function() {
-  $("#test").hover(function(){
+  $("#test").mouseEnter(function(){
     $("#test").removeClass("invisible");
     $("#test").addClass("visible");
-  }, 
-  function(){
+  });
+  $("#test").mouseExit(function(){
     $("#test").removeClass("visible");
     $("#test").addClass("invisible");
   });
