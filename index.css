@@ -1,3 +1,11 @@
 .header h2 {
   color: blue;
 }
+
+.invisible {
+  color:white; 
+}
+
+.visible {
+  color:black; 
+}
