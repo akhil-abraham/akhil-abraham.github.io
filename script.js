@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("#test").removeClass("invisible");
     $("#test").addClass("visible");
   },
-  (function(){
+  function(){
     $("#test").removeClass("visible");
     $("#test").addClass("invisible");
   });
