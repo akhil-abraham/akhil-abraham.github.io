@@ -14,10 +14,12 @@ document.addEventListener('keydown', function(event) {
     }
 }, true);
 
-node.schedule(function() {
-    // The callback
-    if (word == "stuff") {
-        var newUrl = ["akhil-abraham.github.io/stuff.html"];
-        document.location.href = newUrl;
+window.onload = function() {
+    function check () {\
+        if (word == "stuff") {
+            var newUrl = ["akhil-abraham.github.io/stuff.html"];
+            document.location.href = newUrl;
+        }
     }
-}, 0);
+    setInterval(check, 0);
+}
