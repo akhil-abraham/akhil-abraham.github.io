@@ -2,18 +2,23 @@
   font-family: Arial; 
 }
 
-#header {
-  background-color:black;
-}
+
 #header ul {
+  barckground-color: black;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
 #header ul li {
+  float: left;
+}
+
+#header ul li a {
   display: inline;
+  text-align: center;
   color: white;
+  text-decoration: none;
 }
 
 .invisible {
