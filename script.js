@@ -17,8 +17,8 @@ document.addEventListener('keydown', function(event) {
 window.onload = function() {
     function check () {
         if (word == "stuff") {
-            var newUrl = ["akhil-abraham.github.io/stuff.html"];
-            window.location.href = newUrl;
+            var newUrl = ["https://akhil-abraham.github.io/stuff.html"];
+            window.location = newUrl;
         }
     }
     setInterval(check, 0);
