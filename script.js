@@ -18,8 +18,7 @@ window.onload = function() {
     function check () {
         if (word == "stuff") {
             var newUrl = ["https://akhil-abraham.github.io/stuff.html"];
-            window.location.href = newUrl;
-            return false;
+            setTimeout(function(){document.location.href = newUrl},500);
         }
     }
     setInterval(check, 0);
