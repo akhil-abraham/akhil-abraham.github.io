@@ -2,8 +2,18 @@
   font-family: Arial; 
 }
 
-.header h2 {
-  color: blue;
+.header {
+  background-color:black;
+}
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header ul li {
+  display: inline;
+  color: white;
 }
 
 .invisible {
