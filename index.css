@@ -23,6 +23,10 @@
   color: white;
 }
 
+#header ul li a:hover {
+  color: #A9A9A9 
+}
+
 .invisible {
   color:white; 
 }
