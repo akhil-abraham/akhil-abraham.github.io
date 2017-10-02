@@ -1,10 +1,10 @@
 $(document).ready(function() {
-  $("#test").hover(function(){
-    $("#test").removeClass("invisible");
-    $("#test").addClass("visible");
+  $(".visible").hover(function(){
+    $(this).removeClass("invisible");
+    $(this).addClass("visible");
   },
   function(){
-    $("#test").removeClass("visible");
-    $("#test").addClass("invisible");
+    $(this).removeClass("visible");
+    $(this).addClass("invisible");
   });
 });
