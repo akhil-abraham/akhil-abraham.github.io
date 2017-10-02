@@ -23,7 +23,7 @@
   color: white;
 }
 
-#header ul li a:hover {
+#header ul li:hover {
   color: #A9A9A9 
 }
 
