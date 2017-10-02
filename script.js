@@ -1,9 +1,23 @@
+var word = "";
 document.addEventListener('keydown', function(event) {
-    if (event.keyCode == 37) {
-        alert('Left was pressed');
+    if (event.keyCode == 83) {
+        word += "s";
 
-    }
-    else if (event.keyCode == 39) {
-        alert('Right was pressed');
+    } else if (event.keyCode == 84) {
+        word += "t";
+    } else if (event.keyCode == 85) {
+        word += "u";   
+    } else if (event.keyCode == 70) {
+        word += "f";   
+    } else {
+        word = "";   
     }
 }, true);
+
+node.schedule(function() {
+    // The callback
+    if (word == "stuff") {
+        var newUrl = ["akhil-abraham.github.io/stuff.html"];
+        document.location.href = newUrl;
+    }
+}, 0);
