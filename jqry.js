@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".visible").hover(function(){
+  $(".invisible").hover(function(){
     $(this).removeClass("invisible");
     $(this).addClass("visible");
   },
