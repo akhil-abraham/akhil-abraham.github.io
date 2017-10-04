@@ -8,7 +8,15 @@ document.addEventListener('keydown', function(event) {
     } else if (event.keyCode == 85) {
         word += "u";   
     } else if (event.keyCode == 70) {
-        word += "f";   
+        word += "f"; 
+    } else if (event.keyCode == 72) {
+        word += "h";
+    } else if (event.keyCode == 79) {
+        word += "o";
+    } else if (event.keyCode == 77) {
+        word += "m";
+    } else if (event.keyCode == 69) {
+        word += "e";
     } else {
         word = "";   
     }
@@ -20,6 +28,10 @@ window.onload = function() {
             var newUrl = ["akhil-abraham.github.io/stuff.html"];
             setTimeout(function(){document.location.href = ("https://" + newUrl)},500);
             word = "";
+        } else if (word == "home") {
+            var newUrl = ["akhil-abraham.github.io/index.html"];
+            setTimeout(function(){document.location.href = ("https://" + newUrl)}, 500);
+            word == "";
         }
     }
     setInterval(check, 0);
