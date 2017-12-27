@@ -29,7 +29,7 @@ window.onload = function() {
             setTimeout(function(){document.location.href = ("https://" + newUrl)},500);
             word = "";
         } else if (word == "home") {
-            var newUrl = ["akhil-abraham.github.io/index.html"];
+            var newUrl = ["akhil-abraham.github.io"];
             setTimeout(function(){document.location.href = ("https://" + newUrl)}, 500);
             word == "";
         }
