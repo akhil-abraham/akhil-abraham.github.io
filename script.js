@@ -25,7 +25,7 @@ document.addEventListener('keydown', function(event) {
 window.onload = function() {
     function check () {
         if (word == "stuff") {
-            var newUrl = ["akhil-abraham.github.io/stuff.html"];
+            var newUrl = ["akhil-abraham.github.io/Hit-n-Lose/Hitn'Die.html"];
             setTimeout(function(){document.location.href = ("https://" + newUrl)},500);
             word = "";
         } else if (word == "home") {
