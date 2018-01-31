@@ -25,11 +25,11 @@ document.addEventListener('keydown', function(event) {
 window.onload = function() {
     function check () {
         if (word == "stuff") {
-            var newUrl = ["akhil-abraham.github.io/Hit-n-Lose/HitnDie.html"];
+            var newUrl = ["fluffybluff.github.io/Hit-n-Lose/HitnDie.html"];
             setTimeout(function(){document.location.href = ("https://" + newUrl)},500);
             word = "";
         } else if (word == "home") {
-            var newUrl = ["akhil-abraham.github.io"];
+            var newUrl = ["fluffybluff.github.io"];
             setTimeout(function(){document.location.href = ("https://" + newUrl)}, 500);
             word == "";
         }
