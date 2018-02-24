@@ -25,7 +25,7 @@ document.addEventListener('keydown', function(event) {
 window.onload = function() {
     function check () {
         if (word == "stuff") {
-            var newUrl = ["fluffybluff.github.io/Hit-n-Lose/HitnDie.html"];
+            var newUrl = ["fluffybluff.github.io/Hit-n-Lose/Hi-tn-Die.html"];
             setTimeout(function(){document.location.href = ("https://" + newUrl)},500);
             word = "";
         } else if (word == "home") {
