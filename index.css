@@ -33,5 +33,11 @@
 }
 
 .visible {
+  padding : 10px;
   color:black; 
+}
+
+#test h6 (
+  display: block;
+  margin: 10px;
 }
