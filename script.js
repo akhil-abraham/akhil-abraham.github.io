@@ -25,7 +25,7 @@ document.addEventListener('keydown', function(event) {
 window.onload = function() {
     function check () {
         if (word == "stuff") {
-            var newUrl = ["fluffybluff.github.io/Multi-Pong/Networking_Test.html"];
+            var newUrl = ["fluffybluff.github.io/Racing/Racing.html"];
             setTimeout(function(){document.location.href = ("https://" + newUrl)},500);
             word = "";
         } else if (word == "home") {
