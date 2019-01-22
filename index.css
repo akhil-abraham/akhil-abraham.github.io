@@ -28,16 +28,14 @@
 }
 
 .invisible {
-  padding: 10px;
   color:white; 
 }
 
 .visible {
-  padding : 10px;
   color:black; 
 }
 
 #test h6 (
   display: block;
-  margin: 10px;
+  margin: 5px;
 }
